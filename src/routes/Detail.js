@@ -22,7 +22,7 @@ function Detail() {
                 {loading ? <h1>Loading...</h1> : null}
                 <img src={movie.large_cover_image} alt="movie cover" />
                 <br></br>
-                <iframe width="560" height="315" src={`https://www.youtube.com/embed/${movie.yt_trailer_code}`} frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe title="kimhaju" width="560" height="315" src={`https://www.youtube.com/embed/${movie.yt_trailer_code}`} frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <h1>{movie.title}</h1>
                 <p>{movie.description_full}</p>
                 <h3>opening date: {movie.year}</h3>
